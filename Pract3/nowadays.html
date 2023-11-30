@@ -6,25 +6,17 @@
   padding: 0;
 }
 
-ul > li:nth-child(odd) {
+#1,#3,#5,#7,#9{
   background-color: gray;
-  color: white;
 }
 
-ul > li:nth-child(even) {
-  background-color: white;
-}
 
 ol li:nth-child(3):hover,
-ol li:nth-child(5):hover {
+ol li:nth-child(5):hover 
+{
   cursor: pointer;
   text-decoration: underline;
   color: blue;
-}
-
-ul > li > ul > li:nth-child(odd) {
-  background-color: gray;
-  color: white;
 }
 </style>
 
@@ -36,23 +28,23 @@ ul > li > ul > li:nth-child(odd) {
 <ul>
     <li>Овочі:
         <ul>
-            <li>Помідори</li>
-            <li>Огірки</li>
-            <li>Брокколі</li>
+            <li id="#1">Помідори</li>
+            <li id="#2">Огірки</li>
+            <li id="#3">Брокколі</li>
         </ul>
     </li>
     <li>Фрукти:
         <ul>
-            <li>Яблука</li>
-            <li>Банани</li>
-            <li>Апельсини</li>
+            <li id="#4">Яблука</li>
+            <li id="#5">Банани</li>
+            <li id="#6">Апельсини</li>
         </ul>
     </li>
     <li>Хлібобулочні вироби:
         <ul>
-            <li>Хліб</li>
-            <li>Булочки</li>
-            <li>Круасани</li>
+            <li id="#7">Хліб</li>
+            <li id="#8">Булочки</li>
+            <li id="#9">Круасани</li>
         </ul>
     </li>
 </ul>
