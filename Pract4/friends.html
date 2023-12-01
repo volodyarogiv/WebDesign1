@@ -24,6 +24,32 @@
             #friends-table td:last-child {
                 text-align: right;
             }
+            #friends-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        #friends-table caption {
+            font-weight: bold;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        #friends-table th, #friends-table td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        #friends-table tbody tr:nth-child(odd) {
+            background-color: gray;
+            color: white;
+        }
+
+        #friends-table tbody tr:nth-child(even) {
+            background-color: white;
+        }
         </style>
     </head>
     <body>
