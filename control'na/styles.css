@@ -1,0 +1,107 @@
+body {
+    font-family: 'Afacad', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+#block1, #block2, #block3, #block4 {
+    margin-bottom: 20px; 
+    padding: 20px;
+    position: relative;
+}
+#block3 table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+#block3 th, #block3 td {
+    border: 1px solid #333; 
+    padding: 10px;
+    text-align: left;
+}
+#block1 {
+    background-color: #ffcccc;
+    position: relative;
+}
+
+#block2 {
+    background-color: #ccffcc;
+    position: relative;
+}
+
+#block3 {
+    background-color: #ccccff;
+    position: relative;
+}
+
+#block4 {
+    background-color: #fcf5e5;
+    position: relative;
+}
+
+
+h4 {
+    background-color: #333;
+    color: #fff;
+    padding: 1px;
+    width: fit-content;
+    margin-bottom: 1px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+
+.block p, .block li, .block td {
+    color: #333; 
+}
+
+.block h4 {
+    color: #fff; 
+}
+
+
+.block h4 {
+    font-size: 120%; 
+}
+
+@media screen and (max-width: 768px) {
+    .block {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #block1, #block2 {
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+    #block3, #block4 {
+        width: 48%;
+        float: left;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #block1, #block2, #block3 {
+        width: 31.3%;
+        float: left;
+        margin-right: 4%;
+    }
+    #block4 {
+        width: 31.3%;
+        float: left;
+        margin-right: 4%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .block {
+        width: 23.5%;
+        float: left;
+        margin-right: 2%;
+    }
+}
